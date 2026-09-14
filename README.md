@@ -17,6 +17,24 @@
 
 <br />
 
+## 🔥 ForgeFlow AI
+
+**A local-first university team platform with GitHub intelligence and a governed AI project copilot** — FastAPI + React/TypeScript monolith with a reproducible SQLite bootstrap.
+
+One shared workspace where students track activities, projects, and submissions, professors review with a 100-point rubric, and a governed multi-agent AI layer assists through **propose → approve → execute** actions: a persistent project copilot, repository RAG, diff-aware code review, log-grounded debugging, health/briefs, and 7 specialist orchestration roles.
+
+[**▶ Live showcase**](https://hoosseinrahimi.github.io/ForgeFlow-AI/) · [**Repository**](https://github.com/HoosseinRahimi/ForgeFlow-AI-Core)
+
+**My work in `ForgeFlow-AI-Core` — 12+ merged contributions:**
+
+- 🧭 **Ali Workspace** — personal workspace tab with header navigation
+- 🔗 **GitHub connect & sync** — per-student GitHub connect button, GitHub ID verification, and an **in-page code editor** with a collapsible Windows-style folder tree and safe project deletion
+- 🌙 **Theme system** — complete dark mode across the AI workspace and all surfaces, quick Day/Night toggle, settings drawer (Light / Dark / System), and custom theme memory
+- 🌐 **i18n + responsive** — full fa/de translation parity and small-screen/mobile hardening (animated hamburger menu, in-drawer theme/language menus)
+- ⚙️ **Reliability & performance** — cached project scans, dropdown menus, on-demand sections, fail-closed project execution, and DB migrations applied on startup
+
+<br />
+
 ## 👋 About me
 
 Hi! I'm **Ali Moradpour Arani**, a Computer Science graduate who loves to **build and create**.
@@ -27,29 +45,29 @@ Whether it's a pixel-art level, a dashboard, or a full web platform, I care abou
 
 <br />
 
-## 🔥 What I'm building
+## 🚀 What I'm building
 
 ### 🎮 [Indie Game Platform](https://github.com/AliMoradpourArani/indie-game-platform)
 
-**A modern, local-first platform for independent game developers.**
+**A modern, local-first marketplace platform for independent game developers** — connecting players, developers, and administrators.
 
-A modular-monolith web platform that connects **players, developers, and administrators** in one system — React + TypeScript + Tailwind frontend (English / Farsi with RTL), Express + Prisma backend, PostgreSQL, and a Docker-powered local workflow.
+Built as a **modular monolith** (Presentation → Application → Domain → Infrastructure) through 9 completed phases, the platform covers the whole indie-game lifecycle: role-based auth (player / developer / admin) with JWT + RBAC, a full game domain with versions, builds, and media uploads, a **submission → admin review workflow** (`DRAFT → PENDING_REVIEW → UNDER_REVIEW → APPROVED / CHANGES_REQUIRED → PUBLISHED`), public discovery (browse, genres, game & developer pages), purchases with idempotent checkout, entitlements, a personal library, and HMAC-signed controlled downloads — with storage, payments, email, and job running behind swappable interfaces.
+
+Polished with **en/fa i18n + RTL**, dark/light themes, strict portals, error popups, archive/delete flows, ARIA and mobile-first accessibility, seeded showcase games with reviews and discount codes — and hardened with security reviews, rate limits, and **32/32 runnable backend tests green**.
+
+**Stack:** TypeScript · React · Vite · Tailwind CSS · Express · Prisma · PostgreSQL · Docker · Vitest/Supertest
 
 ### 🐸 [Ninja Frog](https://github.com/AliMoradpourArani/NinjaFrog)
 
-**A pixel platformer built with Godot.**
+**A pixel platformer built with Godot 4.**
 
-A hand-crafted pixel-art game starring a ninja frog — run, jump, and idle animations, collectible cherries, two handcrafted levels, a game manager, and a main menu.
+A ninja frog hero with hand-drawn **32×32 pixel art** — idle, run, and jump animations — hops through **two handcrafted tile-based levels** built for mobile-ready 2D rendering. Collect **cherries** to score points (tracked by a shared game manager with an on-screen `Points` HUD), avoid the platform gaps, and reach the **end cup** to trigger the level transition. A pixel-art main menu lets you jump straight into either level, with controls mapped for both keyboard and gamepad.
 
-### 👾 [First Game](https://github.com/AliMoradpourArani/FirstGame)
-
-**Where it all started.**
-
-My very first game project — the playground where my journey into game development began.
+**Stack:** Godot 4.4 · GDScript · custom pixel-art sprites · tilemaps
 
 ### 👥 [Team Project](https://github.com/AliMoradpourArani/Daily-Work-Project)
 
-**A collaborative workspace for university teams and professors.**
+**A collaborative workspace for university teams and professors — the codebase that grew into the ForgeFlow AI core.**
 
 Per-user dashboards for daily activities, calendar history, timelines, and connected projects — built with Python (FastAPI), React + TypeScript, SQLite with Git-tracked shared data, Docker, tests, and CI.
 
