@@ -122,10 +122,20 @@ An early Android app written in Java — Retrofit networking, RecyclerView lists
 
 <div align="center">
 
-![Repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AliMoradpourArani&theme=github_dark)
-![Most committed language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AliMoradpourArani&theme=github_dark)
+<kbd>🐍 Python</kbd> <kbd>🟦 TypeScript</kbd> <kbd>🟨 JavaScript</kbd> <kbd>🎮 GDScript</kbd> <kbd>☕ Java</kbd>
 
 </div>
+
+**Python** is the backbone of my AI and platform work — it powers the **FastAPI backend, AI project copilots, repository RAG, and debugging tooling in the ForgeFlow AI core**, as well as my university team-project build. It sits alongside **TypeScript / JavaScript (React, Node)**, **GDScript** (Godot games), and **Java** (Android).
+
+<div align="center">
+
+![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AliMoradpourArani&theme=github_dark)
+![Top Languages by Commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AliMoradpourArani&theme=github_dark)
+
+</div>
+
+> The charts above mirror GitHub's own language attribution, which under-reports Python for my account: commits are grouped by each repository's single primary language — `ForgeFlow-AI-Core` is classified as **TypeScript** by GitHub even though it contains a large FastAPI/Python backend — and commits pushed to **forks** (like my team-project fork) are not counted. That's why Python rules my actual work but is invisible in the GitHub-generated charts.
 
 <br />
 
