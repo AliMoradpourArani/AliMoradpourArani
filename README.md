@@ -53,7 +53,9 @@ Whether it's a pixel-art level, a dashboard, or a full web platform, I care abou
 
 Built as a **modular monolith** (Presentation → Application → Domain → Infrastructure) through 9 completed phases, the platform covers the whole indie-game lifecycle: role-based auth (player / developer / admin) with JWT + RBAC, a full game domain with versions, builds, and media uploads, a **submission → admin review workflow** (`DRAFT → PENDING_REVIEW → UNDER_REVIEW → APPROVED / CHANGES_REQUIRED → PUBLISHED`), public discovery (browse, genres, game & developer pages), purchases with idempotent checkout, entitlements, a personal library, and HMAC-signed controlled downloads — with storage, payments, email, and job running behind swappable interfaces.
 
-Polished with **en/fa i18n + RTL**, dark/light themes, strict portals, error popups, archive/delete flows, ARIA and mobile-first accessibility, seeded showcase games with reviews and discount codes — and hardened with security reviews, rate limits, and **32/32 runnable backend tests green**.
+Now with a **personalized recommendation & discovery subsystem** (merged PR [#3](https://github.com/AliMoradpourArani/indie-game-platform/pull/3)): first-time onboarding with external taste anchors, behavior tracking (views, demos, purchases, ratings) with time decay, a transparent rule-based scoring engine with a strategy port reserved for future ML, a personalized homepage feed with cold-start fallbacks, and a `You might also like` carousel — purchase claims rejected client-side, ownership always verified server-side.
+
+Polished with **en/fa i18n + RTL**, dark/light themes, strict portals, error popups, archive/delete flows, ARIA and mobile-first accessibility, seeded showcase games with reviews and discount codes — and hardened with security reviews, rate limits, and **48/48 runnable backend tests green**.
 
 **Stack:** TypeScript · React · Vite · Tailwind CSS · Express · Prisma · PostgreSQL · Docker · Vitest/Supertest
 
